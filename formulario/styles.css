@@ -1,0 +1,30 @@
+@import url('nav.css');
+@import url('formulario.css');
+@import url('footer.css');
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-image: url('bg.jpg');
+    background-size: 300%;
+    
+}
+
+
+.titulo{
+    background-color: white;
+    margin: 5rem;
+    text-align: center;
+    padding: 5rem;
+    font-size: 3rem;
+    
+}
+.titulo2{
+    color: #535898;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.class-hover:hover{
+    color: #535898;
+    cursor: pointer;
+}

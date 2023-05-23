@@ -1,0 +1,110 @@
+.formulario{
+    text-align: center;
+    border: 1px solid #DDD;
+    margin-top: 3rem;
+    background-color: white;
+    padding: 4rem;
+    margin: 8rem 4rem;
+}
+
+.titulos-formulario{
+    color:#535898 ;
+    font-weight: bold;
+
+}
+
+.caixa-texto{
+    width: 8rem;       
+    border: 1px solid #ccc;
+}
+
+.caixa-texto-menor{
+    width: 2rem;       
+    border: 1px solid #ccc;
+}
+
+.caract{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.itens-caract{
+    margin-left: 1rem;;
+}
+
+.pv-pe{
+    display: flex;
+    justify-content: center;
+}
+
+.itens-pv-pe{
+    margin: 1rem;
+}
+
+.habilidades{
+    display: grid;
+    grid-template-areas: "hab-itens hab-caixa";
+    margin-top: 1rem;
+    
+}
+
+.hab-itens{
+    grid-area: hab-itens;
+    display: flex;
+    flex-direction: column;
+}
+
+.hab-caixa{
+    grid-area: hab-caixa;
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    
+}
+
+.hab-itens-lista{
+    margin-bottom: 0.4rem;
+}
+
+.armas{
+    border: 0.3px solid #DDD;
+    padding: 0.5rem;
+    margin: 0 5rem;
+    margin-top: 1.5rem;
+}
+
+.arma-dados{
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+.area-texto{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.text-area{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.area-do-texto{
+    height: 10rem;
+    margin-top: 0.4rem;
+}
+
+.enviar{
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background-color: white;
+    border: 1px solid #DDD;
+}
+
+.enviar:hover{
+    background-color: #535898;
+    cursor: pointer;
+    border: 2px solid black;
+}

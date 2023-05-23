@@ -1,0 +1,26 @@
+.nav{
+    
+    border-bottom: 0.1rem solid #DDD;
+    padding: 0.5rem;
+    background-color: white;
+    
+    
+}
+.menu-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+   
+    
+    
+}
+
+.imagem-logo{
+    width: 5%;
+}
+.class-hover-nav:hover{
+    color: #535898;
+    cursor: pointer;
+    text-decoration: underline;
+}

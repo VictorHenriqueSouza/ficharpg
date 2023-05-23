@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <ul class="menu-nav">
+            <img src="logo1.jfif" class="imagem-logo">
+            <li class="class-hover-nav">Inicio</li>
+            <li class="class-hover-nav">Regras</li>
+            <li class="class-hover-nav">Contatos</li>
+        </ul>
+    </nav>
+
+    <h1 class="titulo">Crie seu <span class="titulo2">personagem!</span></h1>
+        
+
+    <form class="formulario" id="formulario" action="">
+        
+        <h2 class="titulos-formulario">Caracteristicas:</h2>
+        <fieldset class="caract">
+            <div class="itens-caract">
+                <label for="nome">Nome:</label>
+                <input class="caixa-texto" id="nome" maxlength="17" name="nome">
+            </div>
+
+            <div class="itens-caract">
+                <label>Raça:</label>
+                <select class="caixa-texto" name="raça">
+                    <option hidden>Selecione</option>
+                    <option>Humano</option>
+                    <option>Elfo</option>
+                    <option>Orc</option>
+                    <option>Gnomo</option>
+                </select>
+            </div>
+
+            <div class="itens-caract">
+                <label>Classe:</label>
+                <select class="caixa-texto" name="classe">
+                    <option hidden>Selecione</option>
+                    <option>Guerreiro</option>
+                    <option>Mago</option>
+                    <option>Arqueiro</option>
+                </select>
+            </div>
+            <div class="itens-caract">
+                <label for="nivel">Nivel:</label>
+                <input  class="caixa-texto-menor" id="nivel" maxlength="3" name="nivel">
+            </div>
+            </fieldset>
+
+            <fieldset class="pv-pe">
+                <div class="itens-pv-pe">
+                    <label for="pv">PV:</label>
+                    <input class="caixa-texto-menor" id="pv" maxlength="4" name="pv">
+                </div>
+                <div class="itens-pv-pe">
+                    <label for="pe">PE:</label>
+                    <input class="caixa-texto-menor" id="pe" maxlength="4" name="pe">
+                </div>
+            </fieldset>
+            <h2 class="titulos-formulario">Habilidades:</h2>
+            <fieldset class="habilidades">
+                <div class="hab-itens">
+                    <label class="hab-itens-lista" for="for">Força:</label>
+                    <label class="hab-itens-lista" for="int">Inteligencia:</label>
+                    <label class="hab-itens-lista" for="des">Destreza</label>
+                </div>
+                <div class="hab-caixa">
+                    <input id="for" maxlength="3" class="caixa-texto-menor" name="for">
+                    <input id="int" maxlength="3" class="caixa-texto-menor" name="int">
+                    <input id="des" maxlength="3" class="caixa-texto-menor" name="des">
+                </div>
+            </fieldset>
+            <fieldset class="armas">
+                <h2 class="titulos-formulario">Arma:</h2>
+                <div class="arma-dados">
+                    <div>
+                        <label>Nome:</label>
+                        <input class="caixa-texto" name="arma1">
+                    </div>
+                    <div>
+                        <label>Dano:</label>
+                        <input class="caixa-texto" name="dano1">
+                    </div>
+                </div>
+                <label>
+                    <label>Tipo:</label>
+                    <input type="checkbox" name="cortante1">Cortante
+                    <input type="checkbox" name="perfurante1">Perfurante
+                    <input type="checkbox" name="distancia1">Distancia
+                </label>
+                
+            </fieldset>
+            <fieldset class="armas">
+                <h2 class="titulos-formulario">Arma:</h2>
+                <div class="arma-dados">
+                    <div>
+                        <label>Nome:</label>
+                        <input class="caixa-texto" name="arma2">
+                    </div>
+                    <div>
+                        <label>Dano:</label>
+                        <input class="caixa-texto" name="dano2">
+                    </div>
+                </div>
+                <label>
+                    <label>Tipo:</label>
+                    <input type="checkbox" name="cortante1">Cortante
+                    <input type="checkbox" name="cortante2">Perfurante
+                    <input type="checkbox" name="cortante3">Distancia
+                </label>
+                
+            </fieldset>
+            <fieldset class="armas">
+                <h2 class="titulos-formulario">Arma:</h2>
+                <div class="arma-dados">
+                    <div>
+                        <label>Nome:</label>
+                        <input class="caixa-texto" name="nome3">
+                    </div>
+                    <div>
+                        <label>Dano:</label>
+                        <input class="caixa-texto" name="dano3">
+                    </div>
+                </div>
+                <label>
+                    <label>Tipo:</label>
+                    <input type="checkbox" name="cortante3">Cortante
+                    <input type="checkbox" name="perfurante3">Perfurante
+                    <input type="checkbox" name="distancia3">Distancia
+                </label>
+                
+            </fieldset>
+            <fieldset class="area-texto">
+                <div class="text-area">
+                    <label class="titulos-formulario">Itens:</label>
+                    <textarea class="area-do-texto" name="itens"></textarea>
+                </div>
+                <div class="text-area">
+                    <label class="titulos-formulario">Magias:</label>
+                    <textarea class="area-do-texto" name="magia"></textarea>
+                </div>
+                <div class="text-area">
+                    <label class="titulos-formulario">historia:</label>
+                    <textarea class="area-do-texto" name="historia"></textarea>
+                </div>
+            </fieldset>
+            
+            <input type="submit" value="Enviar Personagem" class="enviar" value="Salvar">
+    </form>
+    <footer class="footer">
+        <p>Victor H. Souza</p>
+        <p>TM</p>
+    </footer>
+    <script src="main.js"></script>
+
+</body>
+</html>

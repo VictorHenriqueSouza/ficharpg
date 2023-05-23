@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+}
+
+.imagem-footer{
+    width: 3%;
+}
